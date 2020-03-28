@@ -1,2 +1,5 @@
-# portfolio
-Here you will find my portfolio featuring projects and homework I've done
+# Portfolio
+
+Experienced in Graphic Design, educated at University of Houston, and certified in full stack web development from University of Texas. I've harnessed new skills in HTML, CSS and JavaScript, with personal strengths in attention to detail, teamwork, and a strong artistic insight. With the ideals of Marie Kondo in mind, I like to do things that spark and invoke joy, with the willingness to complete the task at hand. With my creative outlook and background, I'm passionate about creating meaningful, beautiful, user-friendly web applications and software amongst a team of like-minded individuals. I’m excited to apply these skills in the future as part of an innovative, motivated team, and committed to devoting my time, energy, and resourcefulness to front-end web development.
+
+View my portfolio here! https://dennistonc.github.io/portfolio/
