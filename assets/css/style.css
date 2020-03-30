@@ -432,7 +432,12 @@ body {
       margin: 120px 0px 100px 20px;
     }
 
-      /* Button Over Images */
+    /* Button Over Images */
+    tr td {
+      padding-bottom: 10px;
+      display: block;
+    }
+
     .container {
       position: relative;
       width: 95%;
@@ -488,7 +493,12 @@ body {
       margin: 170px 0px 120px 20px;
     }
 
-      /* Button Over Images */
+     /* Button Over Images */
+    tr td {
+      padding-bottom: 10px;
+      display: block;
+    }
+    
     .container {
       position: relative;
       width: 100%;
@@ -542,7 +552,12 @@ body {
       margin: 170px 0px 120px 20px;
     }
 
-      /* Button Over Images */
+    /* Button Over Images */
+    tr td {
+      padding-bottom: 10px;
+      display: block;
+    }
+
     .container {
       position: relative;
       width: 100%;
