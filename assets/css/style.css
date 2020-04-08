@@ -220,35 +220,152 @@ body {
 }
 
   /* Button Over Images */
-.container {
-  position: relative;
-  width: 75%;
-  z-index: 0;
-}
+  .container {
+    position: relative;
+    width: 75%;
+    z-index: 0;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    filter: brightness(80%);
+  }
+  
+  .overlay .btn {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 100%;
+    height: 50%;
+    color: #ffffff;
+    background-color: rgba(75, 75, 75, 0.6);
+    border-style: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 80px 0px 0px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .overlay .btn:hover{
+    color: #cecece;
+    background-color: rgba(44, 44, 44, 0.6);
+  }
+  
+  .overlay .btn2 {
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    width: 100%;
+    height: 50%;
+    color: #ffffff;
+    background-color: rgba(75, 75, 75, 0.6);
+    border-style: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 0px 80px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .overlay .btn2:hover{
+    color: #cecece;
+    background-color: rgba(44, 44, 44, 0.6);
+  }
+  
+  #proj1 {
+    font-size: 18px !important;
+  }
+  
+  #overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 98%;
+    color: #ffffff;
+    background-color: rgba(75, 75, 75, 0.6);
+    border-style: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  #overlay:hover{
+    color: #cecece;
+    background-color: rgba(44, 44, 44, 0.6);
+  }
 
-.container img {
-  width: 100%;
-  height: auto;
-}
+  /* OLD BUTTONS */
+  /* .container .btn {
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    padding: 12px 0px 12px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container .btn:hover {
+    background-color: #3d8a86;
+  } */
 
-.container .btn {
-  position: absolute;
-  bottom: 10px;
-  left: 0%;
-  width: 100%;
-  background-color: #4aaaa5;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 12px 0px 12px 0px;
-  padding-left: 50px;
-  padding-right: 50px;
-  border: none;
-  cursor: pointer;
-}
+  /* Contact Form */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+  }
 
-.container .btn:hover {
-  background-color: #3d8a86;
-}
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #3d8a86;
+  }
+
+  .contactformcontainer {
+    padding: 0px 20px 10px 20px;
+    text-align: left;
+  }
+
+  td {
+    padding: 5px;
+  }
 
   /* Sticky Footer */
   .footer {
