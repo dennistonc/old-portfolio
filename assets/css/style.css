@@ -446,20 +446,98 @@ body {
       font-size: 18px;
     }
 
-      /* Button Over Images */
+    /* Button Over Images */
     .container {
       position: relative;
       width: 100%;
+      z-index: 0;
     }
     
     .container img {
-      width: 95%;
+      width: 100%;
       height: auto;
+      filter: brightness(80%);
     }
     
-    .container .btn {
-      width: 95%;
-      padding: 8px 0px 8px 0px;
+    .overlay .btn {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 80px 0px 0px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    .overlay .btn2 {
+      position: absolute;
+      bottom: -25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 0px 0px 80px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn2:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    #proj1 {
+      font-size: 18px !important;
+    }
+    
+    #overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 98%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    #overlay:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
     }
   }
 
@@ -497,24 +575,100 @@ body {
       margin: 150px 0px 120px 20px;
     }
 
-      /* Button Over Images */
+    /* Button Over Images */
     .container {
       position: relative;
       width: 100%;
+      z-index: 0;
     }
     
     .container img {
-      width: 95%;
+      width: 100%;
       height: auto;
+      filter: brightness(80%);
     }
     
-    .container .btn {
-      width: 95%;
-      font-size: 18px;
-      padding: 8px 0px 8px 0px;
+    .overlay .btn {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 70px 0px 0px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    .overlay .btn2 {
+      position: absolute;
+      bottom: -25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 0px 0px 75px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn2:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    #proj1 {
+      font-size: 18px !important;
+    }
+    
+    #overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 98%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    #overlay:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
     }
   }
-
 
   @media screen and (max-width: 640px) {
     nav {
@@ -557,19 +711,95 @@ body {
 
     .container {
       position: relative;
-      width: 95%;
-      
+      width: 100%;
+      z-index: 0;
     }
     
     .container img {
-      width: 95%;
+      width: 100%;
       height: auto;
+      filter: brightness(80%);
     }
     
-    .container .btn {
-      width: 95%;
-      font-size: 17px;
-      padding: 8px 0px 8px 0px;
+    .overlay .btn {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 80px 0px 0px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    .overlay .btn2 {
+      position: absolute;
+      bottom: -25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 0px 0px 80px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn2:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    #proj1 {
+      font-size: 18px !important;
+    }
+    
+    #overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 98%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    #overlay:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
     }
   }
 
@@ -619,17 +849,94 @@ body {
     .container {
       position: relative;
       width: 100%;
+      z-index: 0;
     }
     
     .container img {
-      width: 95%;
+      width: 100%;
       height: auto;
+      filter: brightness(80%);
     }
     
-    .container .btn {
-      width: 95%;
+    .overlay .btn {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
       font-size: 20px;
-      padding: 8px 2px 8px 2px;
+      font-weight: bold;
+      padding: 80px 0px 0px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    .overlay .btn2 {
+      position: absolute;
+      bottom: -25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 0px 0px 80px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn2:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    #proj1 {
+      font-size: 18px !important;
+    }
+    
+    #overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 98%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    #overlay:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
     }
   }
 
@@ -678,16 +985,93 @@ body {
     .container {
       position: relative;
       width: 100%;
+      z-index: 0;
     }
     
     .container img {
-      width: 95%;
+      width: 100%;
       height: auto;
+      filter: brightness(80%);
     }
     
-    .container .btn {
-      width: 95%;
+    .overlay .btn {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
       font-size: 20px;
-      padding: 8px 2px 8px 2px;
+      font-weight: bold;
+      padding: 80px 0px 0px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    .overlay .btn2 {
+      position: absolute;
+      bottom: -25%;
+      left: 50%;
+      width: 100%;
+      height: 50%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 0px 0px 80px 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay .btn2:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
+    }
+    
+    #proj1 {
+      font-size: 18px !important;
+    }
+    
+    #overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 98%;
+      color: #ffffff;
+      background-color: rgba(75, 75, 75, 0.6);
+      border-style: none;
+      outline: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      transform: translate(-50%, -50%);
+    }
+    
+    #overlay:hover{
+      color: #cecece;
+      background-color: rgba(44, 44, 44, 0.6);
     }
   }
